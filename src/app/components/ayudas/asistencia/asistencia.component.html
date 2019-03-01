@@ -1,5 +1,13 @@
-<app-navbaraguapotable></app-navbaraguapotable>
 
+  <!-- Button trigger modal -->
+  <div class="fixed-bottom">
+    <button type="button" class="btn btn-danger btn-lg" id="btnAsistencia" data-toggle="modal" data-target="#exampleModalLong">
+      <i class="fas fa-info-circle"></i>
+    </button>
+  </div>
+  
+
+<!-- Modal -->
 <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle"
   aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -48,7 +56,6 @@
       </div>
     </div>
   </div>
-</div>
 
 <div class="sticky-top">
   <div aria-live="polite" aria-atomic="true" style="position: relative;  z-index: 3;">
@@ -88,35 +95,7 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-
-
       </div>
     </div>
   </div>
-</div>
-
-
-
-
-<div class="card-group">
-  <div class="card">
-    <div class="card-body">
-      <a [routerLink]="['/AguaPotable/menu']" id="btnSeleccion" class="btn btn-primary btn-lg btn-block">Agua Potable</a>
-
-    </div>
-  </div>
-  <div class="card">
-    <div class="card-body">
-      <a href="AguaServida/Menu.html" id="btnSeleccion" class="btn btn-primary btn-lg btn-block">Agua Servida</a>
-    </div>
-  </div>
-</div>
-
-
-
-<!-- Button trigger modal -->
-<div class="fixed-bottom">
-  <button type="button" class="btn btn-danger btn-lg" id="btnAsistencia" data-toggle="modal" data-target="#exampleModalLong">
-    <i class="fas fa-info-circle"></i>
-  </button>
 </div>
