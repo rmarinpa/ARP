@@ -3,7 +3,7 @@ const express = require('express'),
 
 const app = express();
 
-app.use(express.static('./dist/paises'));
+app.use(express.static('./dist/ARP'));
 
 app.get('/*', (req,res) => {
     res.sendfile(path.join(__dirname,'/dist/arp/index.html'));

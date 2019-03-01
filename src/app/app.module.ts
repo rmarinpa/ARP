@@ -3,10 +3,9 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { LoginComponent } from './pages/login/login.component';
-import { MenuComponent } from './pages/menu/menu.component';
-import { NoEncontradoComponent } from './pages/no-encontrado/no-encontrado.component';
-import { NoticiasComponent } from './pages/noticias/noticias.component';
+import { LoginComponent } from './paginas/login/login.component';
+import { MenuComponent } from './paginas/menu/menu.component';
+import { NoEncontradoComponent } from './paginas/no-encontrado/no-encontrado.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 
@@ -15,8 +14,7 @@ import { environment } from '../environments/environment';
     AppComponent,
     LoginComponent,
     MenuComponent,
-    NoEncontradoComponent,
-    NoticiasComponent
+    NoEncontradoComponent
   ],
   imports: [
     BrowserModule,
